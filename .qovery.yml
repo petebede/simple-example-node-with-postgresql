@@ -1,14 +1,15 @@
+---
 application:
-  name: telamappdiex
-  project: telamappdiex-2
-  publicly_accessible: true
+  name: "simple-example-node-with-postgresql"
+  project: "vas"
+  organization: "QoveryCommunity"
 databases:
-- type: postgresql
-  version: "12"
-  name: my-psql
+- type: "POSTGRESQL"
+  name: "asxz"
+  version: "11"
 routers:
-- name: main
+- name: "main-simple-example-node-with-postgresql"
   routes:
-  - application_name: telamappdiex
+  - application_name: "simple-example-node-with-postgresql"
     paths:
-    - /
+    - "/*"
